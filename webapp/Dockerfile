@@ -6,6 +6,6 @@ COPY . .
 
 RUN npm upgrade -g npm && npm upgrade -g yarn && yarn install 
 
-EXPOSE 9999
+EXPOSE 80
 
 CMD yarn start
