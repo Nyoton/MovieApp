@@ -21,7 +21,7 @@ services:
     image: "${registry}/webapp"
     container_name: movie_app
     ports:
-      - "80:80"
+      - "9090:80"
   database:
     image: mariadb
     restart: always
